@@ -1,18 +1,13 @@
-html> 
+<html> 
 <head> 
-<title>Contoh Form dengan POST</title> 
+<title> Form method GET </title> 
 </head> 
 <body> 
-<form action="login.php" method="post"> 
-<h1>WELCOME zalfaa COMPANY</h1> 
-<hr> 
-Username : <input type="text" name="username"
-minlength="5" maxlength="5" required> 
-<br> 
-Password : <input type="password" name="password"
-minlength="5" maxlength="5" required> 
-<br> 
-<input type="submit" value="login"> 
+<h1>Input</h1> 
+<form action="methodpostproces.php" method="post"> 
+Masukkan nama : <input type="text" name="nama" size="25"
+minlength="5" maxlength="10" required> 
+<input type="submit" value="Proses"> 
 </form> 
 </body> 
-</html>
+</html> 
