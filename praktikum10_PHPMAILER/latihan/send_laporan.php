@@ -80,7 +80,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'toko.sembako.kecil@gmail.com';
-    $mail->Password   = 'xilrjzogdruxbgmm';
+    $mail->Password   = '';
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
@@ -104,3 +104,4 @@ if(file_exists($pdfFile)){
     unlink($pdfFile);
 }
 ?>
+
