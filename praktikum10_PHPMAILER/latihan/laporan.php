@@ -219,7 +219,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'toko.semboko.kecil@gmail.com'; // ganti dengan email kamu
-    $mail->Password   = 'xilrjzogdruxbgmm';      // ganti dengan password/app password
+    $mail->Password   = '';      // ganti dengan password/app password
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
@@ -238,5 +238,6 @@ try {
 
 // hapus file PDF sementara
 unlink($pdfFile);
+
 
 ?>
